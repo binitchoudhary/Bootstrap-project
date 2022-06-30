@@ -13,7 +13,7 @@
 
 .ban{
   background-image: url(./mike-erskine-S_VbdMTsdiA-unsplash.jpg);
-  height: 100vh;
+  height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -21,7 +21,7 @@
 .ban-text {
   color: whitesmoke;
   text-align: center;
-  padding: 300px 0 0 0;
+  padding: 250px 0 0 0;
 }
 
 .year {
@@ -67,7 +67,7 @@
 }
 
 
-@media screen and (max-width: 393px) {
+/* @media screen and (max-width: 393px) {
     .bin-img{
         width: 100%;
     }
@@ -77,4 +77,4 @@
     .bin-img{
         width: 100%;
     }
-}
+} */
