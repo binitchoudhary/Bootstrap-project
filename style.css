@@ -91,9 +91,11 @@ body{
 
   .slides {
     display: flex;
-    background-color: #789edf;
+    /* background-color: #789edf; */
     height: 450px;
     align-items: center;
+    background-color: transparent;
+    border: none;
 }
 
 #dots{
@@ -104,6 +106,10 @@ body{
 .carousel-indicators {
     bottom: -53px!important;
     /* background-color: #134672; */
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    display: none;
 }
 
 img.client-img {
