@@ -1,10 +1,10 @@
-/* @media (min-width: 992px) {
-  .navbar-expand-lg .navbar-collapse {
-    justify-content: end;
-  }
-} */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Open+Sans&display=swap');
 .nev1 .nev2{
     justify-content: end;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
 }
 
 .navbar-light .navbar-nav .active > .nav-link {
@@ -65,16 +65,84 @@
 .pro{
     height: 5px;
 }
+.barcol{
+    background-color: hotpink;
+}
 
+.happy-clients {
+    font-size: 30px;
+    font-weight: 500;
+}
 
-/* @media screen and (max-width: 393px) {
-    .bin-img{
-        width: 100%;
-    }
+.happy-text{
+    margin-left: 40px;
+}
+
+.resume{
+    border-bottom: 5px solid rgba(255, 0, 0, 0.521);
   }
 
-@media screen and (max-width: 414px) {
-    .bin-img{
-        width: 100%;
-    }
-} */
+  .menu{
+    border-radius: 15px;
+    background-color: whitesmoke;
+    margin-left: 150px;
+    padding: 10px 4px 4px 16px;
+  }
+
+  .slides {
+    display: flex;
+    background-color: #789edf;
+    height: 450px;
+    align-items: center;
+}
+
+#dots{
+    background-color: black;
+}
+
+
+.carousel-indicators {
+    bottom: -53px!important;
+    /* background-color: #134672; */
+}
+
+img.client-img {
+    width: 70px;
+    border-radius: 35px;
+    height: 72px;
+    border: 5px solid #fff;
+}
+
+.card-body-temp {
+    width: 550px;
+    height: 234px;
+    display: flex;
+    padding: 40px 40px;
+    flex-direction: column;
+    text-align: justify;
+    margin: 85px auto;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+
+i.fa-quote-left {
+    position: relative;
+    top: -8px;
+    left: -2px;
+    font-size: 22px;
+    color: hotpink;
+}
+
+i.fa-quote-right {
+    position: relative;
+    left: 2px;
+    top: -7px;
+    font-size: 22px;
+    color: hotpink;
+}
+
+.client-img-container {
+    /* position: absolute;
+    left: 40px; */
+}
