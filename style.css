@@ -64,6 +64,11 @@ ul.navbar-nav.justify-content-end {
   margin-top: 10px;
 }
 
+.jumbotron {
+  background-color: transparent !important;
+  margin-bottom: 0px;
+}
+
 .car2 {
   width: 300px;
   margin-top: 10px;
@@ -79,7 +84,10 @@ ul.navbar-nav.justify-content-end {
 }
 
 .percen {
-  background-image: linear-gradient(grey, whitesmoke);
+  /* background-image: linear-gradient(#c9d5dd, whitesmoke); */
+  /* opacity: 0.8; */
+  margin-bottom: 0px !important;
+  border-radius: 0px !important;
 }
 
 .htm {
@@ -226,4 +234,26 @@ i.fa-quote-right {
 
 .card.w-100.text-center {
   box-shadow: 1px 2px 5px #aba7a7;
+}
+
+section {
+  background: linear-gradient(#f2f6f9, transparent);
+}
+
+.gallery {
+  padding: 10px;
+}
+
+.gallery-container {
+  margin: 0px;
+}
+
+.services-icon {
+  color: hotpink;
+  font-size: 45px;
+  padding: 15px 0px 15px 0px;
+}
+
+.card.w-100.text-center {
+  min-height: 200px;
 }
